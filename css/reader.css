@@ -1,0 +1,135 @@
+a:link {text-decoration:none; color:#000000;}    /* unvisited link */
+a:visited {text-decoration:none; color:#000000;} /* visited link */
+a:hover {text-decoration:underline; color:#0000aa;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+.reader {
+	margin:0px;padding:0px;
+/*	width:760px; */
+	box-shadow: 3px 4px 2px #888888;
+	border:1px solid #000000;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+}
+/*.reader table{
+	width:760px;
+	height:200px;
+	margin:0px;padding:0px;
+}*/
+.reader tr:last-child td:last-child {
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+.reader table tr:first-child td:first-child {
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+}
+.reader table tr:first-child td:last-child {
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+}
+.reader tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+}
+.reader tr:hover td{
+	background-color:#C6E2FF;
+}
+.reader td{
+	vertical-align:middle;
+	background-color:#ffffff;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Verdana;
+	font-weight:normal;
+	color:#000000;
+}
+.reader tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+.reader tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+.reader tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.reader tr:first-child td{
+	background:-o-linear-gradient(bottom, #ff5656 5%, #7f0000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5656), color-stop(1, #7f0000) );
+	background:-moz-linear-gradient( center top, #ff5656 5%, #7f0000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5656", endColorstr="#7f0000");	background: -o-linear-gradient(top,#ff5656,7f0000);
+	background-color:#ff5656;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:18px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#ffffff;
+}
+.reader tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ff5656 5%, #7f0000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5656), color-stop(1, #7f0000) );
+	background:-moz-linear-gradient( center top, #ff5656 5%, #7f0000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5656", endColorstr="#7f0000");	background: -o-linear-gradient(top,#ff5656,7f0000);
+	background-color:#ff5656;
+}
+.reader tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.reader tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+p.good {
+        font-family:verdana,arial,sans-serif;
+        size:11pt;
+        font-weight:bold;
+        text-align:left;
+        vertical-align:text-bottom;
+        color:green;
+        padding:0;
+        margin:0;
+}
+p.bad {
+        font-family:verdana,arial,sans-serif;
+        font-size:16pt;
+        font-weight:bold;
+        text-align:center;
+        vertical-align:text-bottom;
+        color:red;
+        padding:0;
+        margin:0;
+}
+p.norm {
+        font-family:verdana,arial,sans-serif;
+        font-size:8pt;
+        text-decoration:none;
+        text-align:left;
+        vertical-align:text-bottom;
+        color:black;
+        padding-left:2px;
+        margin:0;
+}
+p.counter {
+        font-family:verdana,arial,sans-serif;
+        font-size:8pt;
+        text-align:right;
+        vertical-align:text-bottom;
+        color:black;
+        padding-right:2px;
+        margin:0;
+}
